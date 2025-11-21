@@ -14,7 +14,8 @@ Desenvolvido durante a **Imersão Dev com Google Gemini** da Alura, este projeto
 
 *Uma interface imersiva com estética Cyberpunk/Retro, focada na experiência do usuário.*
 
-![Preview do Projeto](https://github.com/user-attachments/assets/placeholder)
+![Preview do Projeto]<img width="1721" height="884" alt="image" src="https://github.com/user-attachments/assets/e25296a6-12e4-40d3-b987-12fc881ed91b" />
+
 *(O projeto conta com efeito visual de Scanline (monitor antigo) e cores Neon)*
 
 ---
