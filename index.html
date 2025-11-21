@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelPrompt | Guia de Estilos IA</title>
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👾</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>PixelPrompt_</h1>
+        <p class="subtitle">O grimório de estilos para criar Pixel Art com IA</p>
+    </header>
+
+    <main>
+        <section class="search-container">
+            <div class="input-wrapper">
+                <input type="text" placeholder="Digite um estilo (ex: cyberpunk, snes, terror)..." id="campo-pesquisa">
+                <button onclick="pesquisar()">Buscar</button>
+            </div>
+
+            <div class="suggestion-chips">
+                <span class="chip-label">Explorar:</span>
+                <button onclick="botaoBusca('cyberpunk')">Cyberpunk</button>
+                <button onclick="botaoBusca('retro')">Retro</button>
+                <button onclick="botaoBusca('terror')">Terror</button>
+                <button onclick="botaoBusca('natureza')">Natureza</button>
+                <button onclick="botaoBusca('isometrico')">Isométrico</button>
+            </div>
+        </section>
+
+        <section class="results-container" id="resultados-pesquisa">
+            </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/carlos-eduardo-luz-de-almeida/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/almdxx" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/c_almeidax" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="copyright">&copy; 2025 PixelPrompt - Desenvolvido por <strong>Carlos Eduardo</strong></p>
+        <p class="disclaimer">Imersão Dev com Google Gemini</p>
+    </footer>
+
+    <div id="toast">Prompt copiado com sucesso!</div>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
